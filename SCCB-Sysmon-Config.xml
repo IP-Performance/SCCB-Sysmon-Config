@@ -332,7 +332,7 @@
 			<DestinationPort name="SMTP" condition="is">25</DestinationPort> <!--SMTP mail protocol port, insecure, used by threats-->
 			<DestinationPort name="IMAP" condition="is">143</DestinationPort> <!--IMAP mail protocol port, insecure, used by threats-->
 			<DestinationPort name="RDP" condition="is">3389</DestinationPort> <!--Windows:RDP: Monitor admin connections-->
-			<DestinationPort name="HTTPS" condition="is">443</DestinationPort> <!--SSH protocol, monitor admin connections-->
+			<DestinationPort name="HTTPS" condition="is">443</DestinationPort> <!--HTTPS protocol, custom monitor connections-->
 			<DestinationPort name="VNC" condition="is">5800</DestinationPort> <!--VNC protocol: Monitor admin connections, often insecure, using hard-coded admin password-->
 			<DestinationPort name="VNC" condition="is">5900</DestinationPort> <!--VNC protocol Monitor admin connections, often insecure, using hard-coded admin password-->
 			<DestinationPort name="Alert,Metasploit" condition="is">444</DestinationPort>
